@@ -29,6 +29,7 @@ pytorch
 ```
 ➜ python erasure-based_evalation.py
 ```
+
 <!-- Important Args -->
 ## Important Args
 0. Edit args while run:
@@ -42,10 +43,12 @@ Graph Representation module:
 --n_epoch: graph embedding epoch 
 --n_hid: hidden size 
 --n_inp: graph embedding size # assert this with --n_factors
-
+```
+```
 Recommendation model:
 --n_factors: Number of latent factors (or embeddings)
-
+```
+```
 CFE model (reinforce):
 --ek_alpha: alpha Eq. (1)
 --lambda_tradeoff: lambda Eq. (1)
@@ -57,7 +60,6 @@ CFE model (reinforce):
 ```
 <!-- Cite information -->
 ## Cite information
-
 ```
 will be released after paper acceptance.
 ```
